@@ -56,10 +56,10 @@ const NavLeft = ({ setIsOpen }) => {
         <FiMenu />
       </motion.button>
       <Logo />
-      <NavLink text="Solutions" />
-      <NavLink text="Community" />
-      <NavLink text="Pricing" />
+      <NavLink text="Product" />
       <NavLink text="Company" />
+      <NavLink text="Information"/>
+      <NavLink text="Pricing" />
     </div>
   );
 };
