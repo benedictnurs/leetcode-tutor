@@ -12,11 +12,11 @@ export const DropDown = ({ handleButtonClick, file }) => {
   };
 
   return (
-    <div className="z-50">
+    <div className="z-10">
       <motion.div animate={open ? "open" : "closed"} className="relative">
         <Button
           onClick={() => setOpen((pv) => !pv)}
-          className="flex items-center gap-2 px-3 py-2 rounded-md text-indigo-50 bg-gradient-to-r from-indigo-600 to-violet-600 hover:bg-indigo-500 transition-colors"
+          className="flex items-center gap-2 px-3 py-2 rounded-md text-indigo-50 bg-gradient-to-r from-indigo-600 to-violet-600 hover:bg-indigo-500 transition-colors "
         >
           <span className="font-medium text-sm">{getFileExtension(file.name)}</span> {/* Display file extension in uppercase */}
           <motion.span variants={iconVariants}>
