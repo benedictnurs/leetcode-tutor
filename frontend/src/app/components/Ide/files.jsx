@@ -46,13 +46,13 @@ const files = {
   "main.python": {
     name: "style.py",
     language: "python",
-    language_id: 71, // Language ID for Python
+    language_id: "71", // Language ID for Python
     value: somePythonCodeExample,
   },
   "main.javascript": {
     name: "script.js",
     language: "javascript",
-    language_id: 63, // Language ID for JavaScript
+    language_id: "javascript", // Language ID for JavaScript
     value: someJSCodeExample,
   },
 };

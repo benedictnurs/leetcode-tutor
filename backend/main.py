@@ -4,7 +4,6 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-
 def create_submission(code, language_id):
     url = "https://judge0-ce.p.rapidapi.com/submissions"
     headers = {
